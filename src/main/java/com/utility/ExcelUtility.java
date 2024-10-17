@@ -3,11 +3,13 @@ package com.utility;
 import org.apache.poi.ss.usermodel.*;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class ExcelUtility {
 
     Workbook workbook;
     Sheet sheet;
+    Scanner sc;
 
     static  String sheetName = "Sheet1";
   static String filePath = "D:\\New folder\\SFASheet.xlsx";
